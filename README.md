@@ -25,3 +25,6 @@ By default, a ResNet50 is constructed that is configured for binary classificati
 - For multiclass classification, specify the desired number of classes as `classes`
 
 The `evaluate()` method may be used to inference the model on user-provided images, following compilation and fitting of the model to training data.
+
+## Dockerfile
+`Dockerfile` is provided for building a docker image that instantiates a container comprising Python 3.9 and Tensorflow in which `model.py` can be executed. `Dockerfile` is configured for Windows/x86 systems. 
